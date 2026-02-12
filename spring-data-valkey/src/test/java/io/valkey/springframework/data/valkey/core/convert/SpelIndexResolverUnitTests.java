@@ -29,7 +29,7 @@ import io.valkey.springframework.data.valkey.core.index.IndexConfiguration;
 import io.valkey.springframework.data.valkey.core.index.SpelIndexDefinition;
 import io.valkey.springframework.data.valkey.core.mapping.ValkeyMappingContext;
 import io.valkey.springframework.data.valkey.core.mapping.ValkeyPersistentEntity;
-import org.springframework.data.util.TypeInformation;
+import org.springframework.data.core.TypeInformation;
 import org.springframework.expression.spel.SpelEvaluationException;
 
 /**

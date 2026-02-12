@@ -27,7 +27,7 @@ import io.valkey.springframework.data.valkey.core.index.IndexDefinition;
 import io.valkey.springframework.data.valkey.core.index.SpelIndexDefinition;
 import io.valkey.springframework.data.valkey.core.mapping.ValkeyMappingContext;
 import io.valkey.springframework.data.valkey.core.mapping.ValkeyPersistentEntity;
-import org.springframework.data.util.TypeInformation;
+import org.springframework.data.core.TypeInformation;
 import org.springframework.expression.BeanResolver;
 import org.springframework.expression.Expression;
 import org.springframework.expression.spel.standard.SpelExpressionParser;

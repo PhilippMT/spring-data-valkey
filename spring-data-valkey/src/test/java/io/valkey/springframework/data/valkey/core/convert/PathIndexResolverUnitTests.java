@@ -41,7 +41,7 @@ import io.valkey.springframework.data.valkey.core.index.IndexConfiguration;
 import io.valkey.springframework.data.valkey.core.index.Indexed;
 import io.valkey.springframework.data.valkey.core.index.SimpleIndexDefinition;
 import io.valkey.springframework.data.valkey.core.mapping.ValkeyMappingContext;
-import org.springframework.data.util.TypeInformation;
+import org.springframework.data.core.TypeInformation;
 
 /**
  * @author Christoph Strobl

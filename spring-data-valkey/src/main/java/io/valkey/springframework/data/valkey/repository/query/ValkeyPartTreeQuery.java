@@ -35,7 +35,7 @@ import io.valkey.springframework.data.valkey.core.convert.ValkeyConverter;
 import org.springframework.data.repository.query.ParameterAccessor;
 import org.springframework.data.repository.query.ParametersParameterAccessor;
 import org.springframework.data.repository.query.QueryMethod;
-import org.springframework.data.repository.query.QueryMethodEvaluationContextProvider;
+import org.springframework.data.repository.query.ValueExpressionDelegate;
 import org.springframework.data.repository.query.ResultProcessor;
 import org.springframework.data.repository.query.ReturnedType;
 import org.springframework.data.repository.query.parser.AbstractQueryCreator;
@@ -54,9 +54,9 @@ public class ValkeyPartTreeQuery extends KeyValuePartTreeQuery {
 
 	private final ValkeyKeyValueAdapter adapter;
 
-	public ValkeyPartTreeQuery(QueryMethod queryMethod, QueryMethodEvaluationContextProvider evaluationContextProvider,
+	public ValkeyPartTreeQuery(QueryMethod queryMethod, ValueExpressionDelegate valueExpressionDelegate,
 			KeyValueOperations template, Class<? extends AbstractQueryCreator<?, ?>> queryCreator) {
-		super(queryMethod, evaluationContextProvider, template, queryCreator);
+		super(queryMethod, valueExpressionDelegate, template, queryCreator);
 		this.adapter = (ValkeyKeyValueAdapter) template.getKeyValueAdapter();
 	}
 

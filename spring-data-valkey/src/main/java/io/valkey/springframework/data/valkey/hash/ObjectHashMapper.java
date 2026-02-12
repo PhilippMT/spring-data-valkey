@@ -28,7 +28,7 @@ import io.valkey.springframework.data.valkey.core.convert.ValkeyCustomConversion
 import io.valkey.springframework.data.valkey.core.convert.ValkeyData;
 import io.valkey.springframework.data.valkey.core.convert.ReferenceResolver;
 import io.valkey.springframework.data.valkey.core.mapping.ValkeyMappingContext;
-import org.springframework.data.util.TypeInformation;
+import org.springframework.data.core.TypeInformation;
 import org.springframework.lang.Nullable;
 import org.springframework.util.Assert;
 

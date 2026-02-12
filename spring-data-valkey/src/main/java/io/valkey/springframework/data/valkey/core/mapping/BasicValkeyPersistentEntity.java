@@ -21,7 +21,7 @@ import org.springframework.data.keyvalue.core.mapping.KeySpaceResolver;
 import org.springframework.data.mapping.MappingException;
 import io.valkey.springframework.data.valkey.core.TimeToLive;
 import io.valkey.springframework.data.valkey.core.TimeToLiveAccessor;
-import org.springframework.data.util.TypeInformation;
+import org.springframework.data.core.TypeInformation;
 import org.springframework.lang.Nullable;
 import org.springframework.util.Assert;
 
