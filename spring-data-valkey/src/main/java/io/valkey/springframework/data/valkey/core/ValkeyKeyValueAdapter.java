@@ -346,7 +346,7 @@ public class ValkeyKeyValueAdapter extends AbstractKeyValueAdapter
 	}
 
 	@Override
-	public List<?> getAllOf(String keyspace) {
+	public Iterable<Object> getAllOf(String keyspace) {
 		return getAllOf(keyspace, Object.class, -1, -1);
 	}
 

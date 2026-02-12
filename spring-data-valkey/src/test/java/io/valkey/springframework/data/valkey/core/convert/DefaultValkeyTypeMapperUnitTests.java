@@ -26,7 +26,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.core.convert.support.GenericConversionService;
 import org.springframework.data.convert.ConfigurableTypeInformationMapper;
 import org.springframework.data.convert.SimpleTypeInformationMapper;
-import org.springframework.data.util.TypeInformation;
+import org.springframework.data.core.TypeInformation;
 import org.springframework.lang.Nullable;
 
 /**

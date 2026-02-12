@@ -16,9 +16,9 @@
 
 package io.valkey.springframework.boot.actuate.data.valkey;
 
-import org.springframework.boot.actuate.health.AbstractHealthIndicator;
-import org.springframework.boot.actuate.health.Health;
-import org.springframework.boot.actuate.health.HealthIndicator;
+import org.springframework.boot.health.contributor.AbstractHealthIndicator;
+import org.springframework.boot.health.contributor.Health;
+import org.springframework.boot.health.contributor.HealthIndicator;
 import org.springframework.util.Assert;
 
 import io.valkey.springframework.data.valkey.connection.ValkeyClusterConnection;

@@ -18,8 +18,8 @@ package io.valkey.springframework.boot.actuate.data.valkey;
 
 import java.util.Properties;
 
-import org.springframework.boot.actuate.health.Health;
-import org.springframework.boot.actuate.health.Health.Builder;
+import org.springframework.boot.health.contributor.Health;
+import org.springframework.boot.health.contributor.Health.Builder;
 
 import io.valkey.springframework.data.valkey.connection.ClusterInfo;
 

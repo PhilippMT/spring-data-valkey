@@ -18,7 +18,7 @@ package io.valkey.springframework.data.valkey.core.convert;
 import java.util.Set;
 
 import org.springframework.data.mapping.PersistentProperty;
-import org.springframework.data.util.TypeInformation;
+import org.springframework.data.core.TypeInformation;
 import org.springframework.lang.Nullable;
 
 /**
