@@ -38,7 +38,7 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnThreading;
 import io.valkey.springframework.boot.autoconfigure.data.valkey.ValkeyProperties.Lettuce.Cluster.Refresh;
 import io.valkey.springframework.boot.autoconfigure.data.valkey.ValkeyProperties.Pool;
-import org.springframework.boot.autoconfigure.thread.Threading;
+import org.springframework.boot.thread.Threading;
 import org.springframework.boot.ssl.SslBundle;
 import org.springframework.boot.ssl.SslOptions;
 import org.springframework.context.annotation.Bean;
